@@ -103,10 +103,31 @@ button:active {
 #botão-melhor:hover {
     background-color:green;
     scale:calc(1.1);
+    border-radius:25px;
     transition:500ms;
 }
 
 #botão-melhor:active {
-    background-color:blue;
+    background-color:#020c56;
+    opacity:0.2;
     transition:500ms;
+}
+
+#bonita {
+    border-radius:5px;
+    border:2px solid blue;
+    opacity:0.5;
+    scale:2;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+}
+
+#texto-imagem {
+    text-align: center;
+}
+
+#lista-final > li {
+    color:black;
 }
